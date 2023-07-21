@@ -1,0 +1,31 @@
+:global {
+  .lz-empty-page-root {
+    height: 100%;
+    // height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    .tip-image {
+      width: 50px;
+      height: 45px;
+    }
+    .tip-text {
+      color: #90959a;
+    }
+    .refresh-data {
+      border-radius: 4px;
+      height: 34px;
+      width: 80px;
+      background: #509bff;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+    }
+  }
+}

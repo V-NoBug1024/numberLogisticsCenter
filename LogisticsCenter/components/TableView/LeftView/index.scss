@@ -1,0 +1,72 @@
+:global {
+  .lz-left-view-title {
+    min-width: 78px;
+    min-height: 50px;
+    width: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+
+    span {
+      background: #538bff;
+      padding: 2px;
+      border-radius: 2px;
+      min-width: 62px;
+      max-width: 62px;
+      color: #ffffff;
+      text-align: center;
+      -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+      -webkit-user-select: none; /*webkit浏览器*/
+      -khtml-user-select: none; /*早期浏览器*/
+      -moz-user-select: none; /*火狐*/
+      -ms-user-select: none; /*IE10*/
+      user-select: none;
+    }
+  }
+
+  .lz-left-view-cell {
+    width: 78px;
+    max-width: 78px;
+    border-right: 1px solid #f2f2f2;
+    .cell-text-root {
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      .normal-text {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #323232;
+        font-size: 14px;
+        padding-left: 6px;
+        padding-right: 6px;
+        -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+        -webkit-user-select: none; /*webkit浏览器*/
+        -khtml-user-select: none; /*早期浏览器*/
+        -moz-user-select: none; /*火狐*/
+        -ms-user-select: none; /*IE10*/
+        user-select: none;
+      }
+      .yellow-text {
+        margin-left: 5px;
+        margin-right: 5px;
+        background: #fe981e;
+        border-radius: 2px;
+        color: #ffffff;
+        max-height: 50px;
+        padding-left: 6px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+        -webkit-user-select: none; /*webkit浏览器*/
+        -khtml-user-select: none; /*早期浏览器*/
+        -moz-user-select: none; /*火狐*/
+        -ms-user-select: none; /*IE10*/
+        user-select: none;
+      }
+    }
+  }
+}
